@@ -33,7 +33,7 @@ The workflows are invoked on the command line and end with the extension ``.nf``
 It's also possible to use [Nextflow](https://www.nextflow.io) directly and have it install and use the [Docker](https://docker.io) flavour of [LaMachine](https://proycon.github.io/LaMachine).
 In this case you need to ensure to always run it with the ``-with-docker proycon/lamachine`` parameter:
 
-    $ nextflow run LanguageMachines/PICCL -with-docker proycon/lamachine
+    $ nextflow run proycon/aNtiLoPe -with-docker proycon/lamachine
 
 ## Workflows
 

@@ -12,6 +12,7 @@ all its dependencies are shipped as part of our [LaMachine](https://proycon.gith
 Some related but more specialised workflows are available as standalone projects:
  * [PICCL](https://github.com/LanguageMachines/PICCL) - A set of workflows for corpus building through OCR, post-correction and normalisation.
  * [Nederlab Pipeline](https://github.com/proycon/nederlab-pipeline) - Linguistic enrichment pipeline for historical dutch, as used in the Nederlab project
+ * [Quoll](https://github.com/LanguageMachines/quoll/) - NLP text classification pipeline
 
 Running these workflows, as opposed to manually invoking the underlying NLP tools that do the actual work, enables less
 effort on the part of the user, and more portability and scalability, as the pipelines can be executed across multiple

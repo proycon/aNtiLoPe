@@ -1,5 +1,5 @@
 [![Language Machines Badge](http://applejack.science.ru.nl/lamabadge.php/aNtiLoPe)](http://applejack.science.ru.nl/languagemachines/)
-[![Build Status](https://travis-ci.org/LanguageMachines/aNtiLoPe.svg?branch=master)](https://travis-ci.com/proycon/aNtiLoPe)
+[![Build Status](https://travis-ci.org/proycon/aNtiLoPe.svg?branch=master)](https://travis-ci.com/proycon/aNtiLoPe)
 [![Docker Pulls](https://img.shields.io/docker/pulls/proycon/lamachine.svg)](https://hub.docker.com/r/proycon/lamachine/)
 
 # aNtiLoPe: Natural Language Processing pipelines that run!

@@ -38,7 +38,7 @@ In this case you need to ensure to always run it with the ``-with-docker proycon
 ## Workflows
 
  * ``tokenize.nf`` - A tokenisation workflow using the [ucto](https://LanguageMachines.github.io/ucto) tokeniser; takes either plaintext or untokenised FoLiA documents (e.g. output from ticcl), and produces tokenised FoLiA documents.
- * ``frog.nf`` - An NLP workflow for Dutch using the [frog](https://LanguageMachines.github.io/frog) tokeniser; takes either plaintext or untokenised FoLiA documents (e.g. output from ticcl), and produces linguistically enriched FoLiA documents, takes care of tokenisation as well.
+ * ``frog.nf`` - An NLP workflow for Dutch using the [frog](https://LanguageMachines.github.io/frog) NLP suite; takes either plaintext or FoLiA documents and produces linguistically enriched FoLiA documents, takes care of tokenisation as well.
  * ``foliavalidator.nf`` - A simple validation workflow to validate FoLiA documents. Uses the [FoLiA tools](https://github.com/proycon/foliatools)
  * ``foliaupgrader.nf`` - An upgrade tool to upgrade FoLiA documents to FoLiA v2. Uses the [FoLiA tools](https://github.com/proycon/foliatools)
 

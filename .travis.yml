@@ -33,7 +33,7 @@ install:
     - mkdir /home/travis/build/LaMachine
     - cd /home/travis/build/LaMachine
     - wget https://raw.githubusercontent.com/proycon/LaMachine/master/bootstrap.sh
-    - bash bootstrap.sh --name $CONF_NAME --branch master --flavour $FLAVOUR --version $VERSION --env $LOCALENV_TYPE --private --minimal --prefer-distro --noninteractive --verbose --install piccl
-    - cd /home/travis/build/LanguageMachines/PICCL
+    - bash bootstrap.sh --name $CONF_NAME --branch master --flavour $FLAVOUR --version $VERSION --env $LOCALENV_TYPE --private --minimal --prefer-distro --noninteractive --verbose
+    - cd /home/travis/build/proycon/aNtiLoPe
 script:
     - USER="travis" bash test.sh

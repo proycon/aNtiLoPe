@@ -64,6 +64,7 @@ process foliaupgrade {
         exit 0
     else
         echo \$(readlink "${doc}")"\tFAILED" >> "${doc}.foliaupgrade"
+        cat "${doc}.foliaupgrade" >&2
         exit 1
     fi
     """

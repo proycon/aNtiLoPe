@@ -57,6 +57,7 @@ process foliavalidator {
     if [ \$? -eq 0 ]; then
         echo \$(readlink "${doc}")"\tOK" >> "${doc}.foliavalidator"
     else
+        cat "${doc}.foliavalidator" >&2
         echo \$(readlink "${doc}")"\tFAILED" >> "${doc}.foliavalidator"
     fi
     """

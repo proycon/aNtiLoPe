@@ -29,9 +29,6 @@ if (params.containsKey('help') || !params.containsKey('inputdir')) {
 
 documents = Channel.fromPath(params.inputdir + "/**." + params.extension)
 
-upgraderesults = Channel.create()
-report = Channel.create()
-summary = Channel.create()
 
 process foliaupgrade {
     //validExitStatus 0,1
@@ -72,8 +69,6 @@ process foliaupgrade {
 
 
 //split channel
-upgraderesults_report = Channel.create()
-upgraderesults_summary = Channel.create()
 upgraderesults.into { upgraderesults_report; upgraderesults_summary }
 
 process report {

@@ -1,6 +1,10 @@
 [![Language Machines Badge](http://applejack.science.ru.nl/lamabadge.php/aNtiLoPe)](http://applejack.science.ru.nl/languagemachines/)
 [![Build Status](https://travis-ci.org/proycon/aNtiLoPe.svg?branch=master)](https://travis-ci.com/proycon/aNtiLoPe)
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/proycon/antilope)
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 # aNtiLoPe: Natural Language Processing pipelines that run!
 
 aNtiLoPe offers various NLP workflows that build on a variety of tools.

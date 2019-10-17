@@ -29,6 +29,9 @@ if (params.containsKey('help') || !params.containsKey('inputdir')) {
 
 documents = Channel.fromPath(params.inputdir + "/**." + params.extension)
 
+validationresults = Channel.create()
+report = Channel.create()
+summary = Channel.create()
 
 process foliavalidator {
     validExitStatus 0,1
@@ -62,6 +65,8 @@ process foliavalidator {
 
 
 //split channel
+validationresults_report = Channel.create()
+validationresults_summary = Channel.create()
 validationresults.into { validationresults_report; validationresults_summary }
 
 process report {
